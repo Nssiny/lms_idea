@@ -117,9 +117,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         });
         
         function paging(pid) {
-            alert(search_input);
-            alert("中文");
-            alert(encodeURI(search_input));
             $.ajax({
                 url: '/lms/q.do',
                 type: 'POST',
